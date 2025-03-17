@@ -1,0 +1,19 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="nl.inholland.endassignment.endproject.controllers.MainController">
+    <TabPane fx:id="tabPane" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0"
+             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Tab text="Dashboard" closable="false">
+            <AnchorPane>
+                <VBox alignment="CENTER" spacing="20" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0"
+                      AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" VBox.vgrow="ALWAYS">
+                    <Label fx:id="welcomeLabel" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Welcome!" />
+                    <Label fx:id="roleLabel" style="-fx-font-size: 18px;" text="You are logged in as..." />
+                    <Label fx:id="timeLabel" style="-fx-font-size: 18px;" text="The current date and time is..." />
+                </VBox>
+            </AnchorPane>
+        </Tab>
+    </TabPane>
+</AnchorPane>

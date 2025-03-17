@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300" prefWidth="400" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.inholland.endassignment.endproject.controllers.AddShowingController">
+    <Label layoutX="150" layoutY="10" text="Add New Showing" />
+    <TextField fx:id="titleField" layoutX="41.0" layoutY="49.0" promptText="Movie Title" />
+    <DatePicker fx:id="startDatePicker" layoutX="41.0" layoutY="100.0" promptText="Start Date" />
+    <TextField fx:id="startTimeField" layoutX="226.0" layoutY="100.0" promptText="Time (HH:MM)" />
+    <DatePicker fx:id="endDatePicker" layoutX="41.0" layoutY="150.0" promptText="End Date" />
+    <TextField fx:id="endTimeField" layoutX="226.0" layoutY="150.0" promptText="Time (HH:MM)" />
+    <Button layoutX="41.0" layoutY="250.0" onAction="#onAdd" prefHeight="25.0" prefWidth="70.0" text="Add" />
+    <Button layoutX="120.0" layoutY="250.0" onAction="#onCancel" prefHeight="25.0" prefWidth="70.0" text="Cancel" />
+</AnchorPane>

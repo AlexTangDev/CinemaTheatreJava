@@ -1,0 +1,10 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="nl.inholland.endassignment.endproject.controllers.MainController"
+      alignment="CENTER" spacing="20">
+    <Label fx:id="welcomeLabel" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Welcome!" />
+    <Label fx:id="roleLabel" style="-fx-font-size: 18px;" text="You are logged in as..." />
+    <Label fx:id="timeLabel" style="-fx-font-size: 18px;" text="The current date and time is..." />
+</VBox>
